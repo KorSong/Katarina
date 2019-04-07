@@ -217,5 +217,12 @@ function cal() {
         (1 + eval(SKILLLV.value)) *
         0.877;
     NArenaDMG.innerHTML = Math.ceil(NARENA);
+
+    //------------------------------------------------------------------------------------------------------------------------------------//
+    allCairosDMG.innerHTML = Math.ceil(Cairos) * 3;
+    allNCairosDMG.innerHTML = Math.ceil(NCairos) * 3;
+    allGuildBattleDMG.innerHTML = Math.ceil(GuildBattle) * 3;
+    allNGuildBattleDMG.innerHTML = Math.ceil(NGuildBattle) * 3;
+    allArenaDMG.innerHTML = Math.ceil(ARENA) * 3;
+    allNArenaDMG.innerHTML = Math.ceil(NARENA) * 3;
 }
-//------------------------------------------------------------------------------------------------------------------------------------//
